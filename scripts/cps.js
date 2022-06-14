@@ -20,17 +20,4 @@ function eclick() {
               }
       }
   }
-function myfunction(){}
-var timerID = setTimeout(myfunction, 500);
-clearTimeout(timerID);
 
-// import from https://stackoverflow.com/questions/15145726/javascript-game-with-timer
-var initialTime = new Date();
-function updateTimer() {
-    if (new Date() - initialTime > (1000 * 1000 * 60 * 3) ) {
-         document.getElementById('clock').innerHTML = formatTime();
-         console.log(formatTime())
-         setTimeout(updateTimer, 1000);    
-    }
-}
-updateTimer();
