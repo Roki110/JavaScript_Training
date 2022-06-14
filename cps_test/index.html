@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/cps.css">
-    <script src="../scripts/jquery-3.6.0.js"></script>
-    <script src="../scripts/useful_functions.js"></script>    
+    <script src="../scripts/jquery-3.6.0.js"></script>   
     <script src="../scripts/cps.js"></script>
     <title>CPS test / JavaScript</title>
 </head>
 <body>
-    <section id="cps_test">
-        <div id="box_click" class="container item" >
-            <button onclick="eclick()">
+    <section id="cps_test" class="container item">
+            <div id="box_click" class="container item"onclick="onStressClick()">
                 Click here to begin
-            </button>
-        </div>
-        <h2 id="time">10 seconds</h2>
+            </div>
+            <h2 id="time"></h2>
+            <button class="item" onclick="onInit()">Restart</button>
     </section>
 </body>
 </html>

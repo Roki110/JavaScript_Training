@@ -1,16 +1,17 @@
+#cps_test {
+    flex-flow: column nowrap;
+}
+
 #box_click {
     margin: 1em;
+    align-items: center;
     width: vmin;
     height: 10em;
     border-radius: 5px;
     background-color: #b6c6d4;
     color: rgb(11, 12, 12);
-    align-items: center;
-}
-#box_click button {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    width: 100%;
-    height: 100%;
+    border-radius: 2px;
+    border-color: black;
     font-size: 1.3em;
+    user-select: none;
 }
