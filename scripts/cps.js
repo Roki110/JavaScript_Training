@@ -46,5 +46,4 @@ function onStressEnd () {
   $("#box_click").text("Your CPS is : " + nbClick / duration);
   clearInterval(chronoInterval);
   $("#time").text("Finished !!!");
-
 }
