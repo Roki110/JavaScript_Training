@@ -4,7 +4,7 @@ var nbClick = 0;
 var state = 0;
 var duration = 10;
 var chrono;
-var startTime=0;
+var startTime = 0;
 var chronoInterval;
 
 function onInit () {
